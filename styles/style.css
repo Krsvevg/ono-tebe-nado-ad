@@ -13,7 +13,7 @@ header {
   list-style: circle;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
@@ -55,7 +55,7 @@ header {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 757px;
+  height: 757px;
   z-index: -1;
 }
 
@@ -68,7 +68,6 @@ header {
   height: 100%;
   opacity: 0.6;
   background-color: #000000;
-  position: absolute;
 }
 
 .cover__title {
@@ -83,7 +82,7 @@ header {
   padding-top: 165px;
   padding-left: 50px;
   padding-right: 50px;
-  margin-bottom: 106px;
+ 
 }
 
 .aligned-text {
@@ -113,10 +112,11 @@ header {
   z-index: 1;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 50px;
+  padding-top: 106px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-self: end;
 }
 
 .cover__description-text {
@@ -294,7 +294,7 @@ header {
 
 /*footer*/
 
-.footer{
+.footer {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 82px;
